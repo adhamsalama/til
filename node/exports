@@ -1,0 +1,2 @@
+Exports are cached.
+If you initialize a class and export it, the same single instance is used by everyone who imports it.
