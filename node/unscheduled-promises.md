@@ -11,7 +11,7 @@ async function connectToDatabase(config = {}) {
 
 (async function main() {
   console.log("STARTED");
-  await connectToDatabase(); // Anything after this line won't be executed
+  await connectToDatabase(); // Anything after this line will be executed
   console.log("CONNECTED");
   console.log("DOING SOMETHING ELSE");
 })();
